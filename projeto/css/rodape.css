@@ -1,0 +1,37 @@
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+} 
+
+* 
+{ 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+.animation{
+    text-align: center;
+    animation: slideInLeft 1s ease-in;
+}
+
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    background-color: rgba(255,255,255, 0.651);
+    padding: 8px;
+    font-size: 16px;
+
+}
+
+.a{
+    text-decoration: none; 
+}

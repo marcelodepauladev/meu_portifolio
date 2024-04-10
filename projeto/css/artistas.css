@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Lora&display=swap');
+
+* 
+{ 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+#corpo{
+    background-color: #1a1a1a;
+    height: 100vh;
+    background-image: url(E:\img\davinci\background.jpg);
+}
+
+#header{
+    background-color:  rgba(255, 255, 255, 0.562);
+    padding: 8px;
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+}
+
+.imagem {
+    margin: 4px;
+    float: left;
+    border: solid 1px black;
+    width: 22vmin;
+    height: 29vmin;
+}
+
+.position1 {
+    border: 1px solid white;
+    margin: 1vh 20vw;
+    background-color: #8b784ce3;
+}
+
+.position2{
+    border: 1px solid white;
+    margin: 1vh 20vw;
+    background-color: #3d2a20bb;
+}
+
+.position3{
+    border: 1px solid white;
+    margin: 1vh 20vw;
+    background-color: #cd811db4;
+}
+
+.position4{
+    border: 1px solid white;
+    margin: 1vh 20vw;
+    background-color: #412a15;
+}
+
+.descricao {
+    text-align: center;
+    padding: 6px;
+    font-family: 'Lora', serif;
+    height: 30vh;
+    font-size: 21px;
+}
+
+.image_davinci {
+    margin: 2px;
+    width: 193px;
+    height: 288px;
+    object-fit: cover;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 1.1s;
+}
+
+.ceia_davinci {
+    margin: 2px;
+    width: 557px;
+    height: 288px;
+    object-fit: cover;
+    border: 1px solid black;
+    transition: all 0.3s;
+    cursor: pointer;
+    transition: all 1.1s;
+}
+
+.image_canova {
+    margin: 2px;
+    width: 284px;
+    height: 288px;
+    object-fit: cover;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 1.1s;
+}
+
+.image_delacroix {
+    margin: 2px;
+    width: 234px;
+    height: 288px;
+    object-fit: cover;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 1.1s;
+}
+
+.image_delacroix_dante {
+    margin: 2px;
+    width: 385px;
+    height: 288px;
+    object-fit: cover;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 1.1s;
+}
+
+.image_delacroix_liberdade {
+    margin: 2px;
+    width: 361px;
+    height: 288px;
+    object-fit: cover;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 1.1s;
+}
+
+.image_theodore {
+    margin: 2px;
+    width: 242px;
+    height: 288px;
+    object-fit: cover;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 1.1s;
+}
+
+.image_theodore_balsa {
+    margin: 2px;
+    width: 422px;
+    height: 288px;
+    object-fit: cover;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 1.1s;
+}
+
+.image_theodore_gericault {
+    margin: 2px;
+    width: 228px;
+    height: 288px;
+    object-fit: cover;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 1.1s;
+}
+
+.fake{
+    height: 35px;
+    background-color: black;
+}
+
+.zoom{
+    overflow: hidden;
+}
+
+.zoom:hover .image_davinci{
+    transform: scale(0.9);
+    transition: all 1.1s;
+}
+
+
+.zoom:hover .ceia_davinci{
+    transform: scale(0.9);
+    transition: all 1.1s;
+}
+
+.zoom:hover .image_canova{
+    transform: scale(0.9);
+    transition: all 1.1s;
+}
+
+.zoom:hover .image_delacroix_dante{
+    transform: scale(0.9);
+    transition: all 1.1s;
+}
+
+.zoom:hover .image_delacroix_liberdade{
+    transform: scale(0.9);
+    transition: all 1.1s;
+}
+
+.zoom:hover .image_delacroix{
+    transform: scale(0.9);
+    transition: all 1.1s;
+}
+
+.zoom:hover .image_theodore{
+    transform: scale(0.9);
+    transition: all 1.1s;
+}
+
+.zoom:hover .image_theodore_balsa{
+    transform: scale(0.9);
+    transition: all 1.1s;
+}
+
+.zoom:hover .image_theodore_gericault{
+    transform: scale(0.9);
+    transition: all 1.1s;
+}
+
+.container {
+    margin: 3px;
+    display: flex;
+}
+
+.container_delacroix {
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+}
